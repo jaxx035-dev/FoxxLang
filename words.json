@@ -1,26 +1,43 @@
 {
-    "letters":["abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"],
+    "letters":["abcdefghijklmnopqrstuvwxyz"],
+    "LETTERS":["ABCDEFGHIJKLMNOPQRSTUVWXYZ"],
     "digits":["0123456789"],
     "identifier":{
         "start": "letters_digits_underscore",
         "body": "letters_digits_underscore"
     },
     "keywords":[
-        "vrib",
-        "ask if",
-        "if otherwise",
-        "while happening",
-        "fire",
-        "func",
-        "get back",
-        "yes",
-        "no",
-        "nahh",
-        "display{text_yes_no}",
-        "grab",
-        "get user",
-        "ask otherwise",
-        "is",
-        "str"
+        "vrib": "VAR",
+        "ask_if": "IF",
+        "if_otherwise": "ELSE",
+        "while_happening": "WHILE",
+        "fire": "FOR",
+        "func": "DEF",
+        "get_back": "RETURN",
+        "yes": "TRUE",
+        "no": "FALSE",
+        "nahh": "NULL",
+        "display": "PRINT",
+        "grab": "IMPORT",
+        "get_user": "INPUT",
+        "ask_otherwise": "ELIF",
+        "is": "==",
+        "str": "STRING"
+    ],
+    "delimiters":[
+        "\"": "STRING_EHQ",
+        "'": "STRING_SQ",
+        "!": "STRING_EM"
+    ],
+    "symbols":[
+        "{": "L_BRACE",
+        "}": "R_BRACE",
+        "[": "L_STRING",
+        "]": "R_STRING",
+        "(": "L_PAREN",
+        ")": "R "
+        ";": "SEMI_COLON",
+        ":": "COLON",
+        "~": "TILDA"
     ]
 }

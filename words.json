@@ -1,0 +1,26 @@
+{
+    "letters":["abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"],
+    "digits":["0123456789"],
+    "identifier":{
+        "start": "letters_digits_underscore",
+        "body": "letters_digits_underscore"
+    },
+    "keywords":[
+        "vrib",
+        "ask if",
+        "if otherwise",
+        "while happening",
+        "fire",
+        "func",
+        "get back",
+        "yes",
+        "no",
+        "nahh",
+        "display{text_yes_no}",
+        "grab",
+        "get user",
+        "ask otherwise",
+        "is",
+        "str"
+    ]
+}

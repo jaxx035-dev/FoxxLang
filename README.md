@@ -1,3 +1,4 @@
 # FoxxLang
-foxxlang is in beta so it may not work corectly
-© AnimalLang team 2026 
+foxxlang is still in beta!
+so dont expect it to to be great for coding
+  © FurrLangs team 2026

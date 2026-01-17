@@ -1,2 +1,1 @@
-import json
-word_list = json.load(open("words.json"))
+import json as jn

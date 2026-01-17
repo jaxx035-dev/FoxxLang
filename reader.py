@@ -1,6 +1,8 @@
 import json as jn
 import random as rm
-keywords = split(jn.keywords)
+keywords1 = split(jn.keywords)
+word_list1 = jn.letters
+word_list2 = jn.LETTERS
 wrd_1 = rm.sample(word_list1)
 wrd_2 = rm.sample(word_list2)
 word_list = wrd_1  and wrd_2

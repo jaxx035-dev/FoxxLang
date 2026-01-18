@@ -6,5 +6,9 @@ word_list2 = split(jn.LETTERS)
 wrd_1 = rm.sample(word_list1)
 wrd_2 = rm.sample(word_list2)
 word_list = wrd_1  and wrd_2
-number_values = jn.digits
+number_values = split(jn.digits)
+delimiters = split(jn.delimiters)
+boolean = split(jn.boolean)
+symbols = split(symbols)
+
   
